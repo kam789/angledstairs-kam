@@ -343,7 +343,7 @@ angledstairs.register_angled_stair_and_angled_slab("_stonebrick", "default:stone
 		"Stone Brick Stair",
 		"Stone Brick Slab",
 		default.node_sound_stone_defaults())
-		
+--[[		
 angledstairs.register_angled_stair_and_angled_slab("_obsidian", "default:obsidian",
 		{cracky = 1, level = 2},
 		{"default_obsidian.png"},
@@ -441,7 +441,7 @@ angledstairs.register_angled_stair_and_angled_slab("_snow", "default:snow",
 		"Snow Block Stair",
 		"Snow Block Slab",
 		default.node_sound_dirt_defaults())
-
+--]]
 --- placeholders for glass for a later date they look terrible right now. need to work on the models more eventually
 --[[angledstairs.register_angled_stair_and_angled_slab("_glass", "default:glass",
 		{cracky = 1, level = 2},
@@ -538,7 +538,7 @@ angledstairs.register_recipes("silver_sandstone_brick")
 angledstairs.register_recipes("stone")
 angledstairs.register_recipes("stone_block")
 angledstairs.register_recipes("stonebrick")
-angledstairs.register_recipes("obsidian")
+--[[angledstairs.register_recipes("obsidian")
 angledstairs.register_recipes("obsidian_block")
 angledstairs.register_recipes("obsidianbrick")
 angledstairs.register_recipes("bronzeblock")
@@ -554,3 +554,4 @@ angledstairs.register_recipes("ice")
 angledstairs.register_recipes("snow")
 --angledstairs.register_recipes("lava")
 --angledstairs.register_recipes("water")
+--]]
