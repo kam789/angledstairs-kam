@@ -459,7 +459,7 @@ angledstairs.register_angled_stair_and_angled_slab("_obsidian_glass", "default:o
 
 --and lava & water... just because
 
-angledstairs.register_angled_stair_and_angled_slab("_lava", "default:lava",
+--[[angledstairs.register_angled_stair_and_angled_slab("_lava", "default:lava",
 		{cracky = 1, level = 2},
 		{"default_lava.png"},
 		"Lava Stair",
@@ -471,7 +471,7 @@ angledstairs.register_angled_stair_and_angled_slab("_water", "default:water",
 		{"default_water.png"},
 		"Water Stair",
 		"Water Slab",
-		default.node_sound_stone_defaults())
+		default.node_sound_stone_defaults())]]--
 
 --Recipes by otterwise
 
@@ -552,5 +552,5 @@ angledstairs.register_recipes("dirt")
 angledstairs.register_recipes("grass")
 angledstairs.register_recipes("ice")
 angledstairs.register_recipes("snow")
-angledstairs.register_recipes("lava")
-angledstairs.register_recipes("water")
+--angledstairs.register_recipes("lava")
+--angledstairs.register_recipes("water")
